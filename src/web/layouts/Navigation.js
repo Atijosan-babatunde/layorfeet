@@ -109,9 +109,9 @@ export function Footer(){
                                 <h4 class="widget-title">Links</h4>
 
                                 <ul class="widget-list">
-                                    <li><Link to="about.html">About Layor's Feet</Link></li>
-                                    <li><Link to="shop.html">Shop</Link></li>
-                                    <li><Link to="contact.html">Contact us</Link></li>
+                                    <li><Link to="/about">About Layor's Feet</Link></li>
+                                    <li><Link to="/shop">Shop</Link></li>
+                                    <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -129,16 +129,16 @@ export function Footer(){
                         </div>
 
 
-                        <div class="footer-bottom">
+                        {/* <div class="footer-bottom">
                             <div class="container">
                                    <p class="footer-copyright">Copyright © 2021 Atijosan Tech. All Rights Reserved.</p>
                                    <div class="social-icons social-icons-color">
                                     <span class="social-label">Social Media</span>
-                                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                                    
                                     <Link to="#" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></Link>
                                   </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -163,11 +163,11 @@ export function Footer(){
             
             <nav class="mobile-nav">
                 <ul class="mobile-menu">
-                    <li class="active"> <a href="index.html">Home</a> </li>
-                    <li class=""> <a href="about.html">About</a> </li>
-                    <li class=""> <a href="shop.html">Shop</a> </li>
+                    <li class="active"> <Link to="/">Home</Link> </li>
+                    <li class=""> <Link to="/about">About</Link> </li>
+                    <li class=""> <Link to="/shop">Shop</Link> </li>
                    
-                    <li class=""> <a href="contact.html">Contact</a> </li>
+                    <li class=""> <Link to="/contact">Contact</Link> </li>
                </ul>
             </nav>
 
