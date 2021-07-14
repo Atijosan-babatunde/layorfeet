@@ -682,18 +682,18 @@ export function Footer() {
                         </div>
 
 
-                        <div class="footer-bottom">
+                        {/* <div class="footer-bottom">
                             <div class="container">
                                    <p class="footer-copyright">Copyright © 2021 Atijosan Tech. All Rights Reserved.</p>
-                                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                                  
                                    <div class="social-icons social-icons-color">
-                                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                                   
                                     <span class="social-label">Social Media</span>
-                                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                                   
                                     <a href="#" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
                                   </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -718,11 +718,11 @@ export function Footer() {
             
             <nav class="mobile-nav">
                 <ul class="mobile-menu">
-                    <li class="active"> <a href="/">Home</a> </li>
-                    <li class=""> <a href="/about">About</a> </li>
-                    <li class=""> <a href="/shop">Shop</a> </li>
+                    <li class="active"> <Link to="/">Home</Link> </li>
+                    <li class=""> <Link to="/about">About</Link> </li>
+                    <li class=""> <Link to="/shop">Shop</Link> </li>
                    
-                    <li class=""> <a href="/contact">Contact</a> </li>
+                    <li class=""> <Link to="/contact">Contact</Link> </li>
                </ul>
             </nav>
              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
